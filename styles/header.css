@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #070B0D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:wght@400;500&display=swap');
+
+.header-container{
+   
+    max-width: 100%;
+    margin: 0;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.header-container .nav-bar{
+    background: linear-gradient(90.39deg,hsla(0,7%,74%,.49) -1.14%,hsla(0,0%,80%,.14) -1.13%,rgb(240 255 244/4%) 99.99%);
+    min-width: 1110px;
+    max-width: 1440px;
+    min-height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 0.5em 1em;
+}
+.logo{
+    display: flex;
+
+
+}
+.logo .name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.name .name-suffix{
+    color:#1eb63f ;
+
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+   
+    gap:clamp(1.5em,2em,2.5em);
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+    gap:clamp(1.5em,2em,2.5em);
+}
+.menu-item a{
+    color: rgba(225, 225, 225, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: rgba(225, 225, 225, 0.75);
+}
+.active a , .active a:hover{
+    color: #f4f5f5;
+}
+.menu-item{
+    text-decoration: none;
+    color: #f4f5f5;
+   
+}
+.menu-item .hashtag{
+    font-family: 'Fira Code', monospace;
+    width: 56;
+    height: 40;
+    color: #1eb63f;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 2px;
+}
+.nav-menu .nav-humbuger-menu{
+    background: none;
+    border-radius: 6px;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    padding: 4px 12px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-humbuger-menu img{
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+
+}
+
+@media only screen and (max-width: 600px) {}
