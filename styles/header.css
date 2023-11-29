@@ -20,41 +20,37 @@ p{
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:wght@400;500&display=swap');
 
 .header-container{
-   
-max-width: 100%;
-   
-margin: 0;
-   
-height: 68px;
-   
-display: flex;
-   
-justify-content: space-around;
-   
-align-items: flex-start;
-   
-margin-top: 30px;
+  
+    max-width: 100%;  
+    margin: 0;    
+    height: 60px;   
+    display: flex;   
+    justify-content: space-around;   
+      
+    margin-top: 30px;
 }
 .header-container .nav-bar{
     background: linear-gradient(90.39deg,hsla(0,7%,74%,.49) -1.14%,hsla(0,0%,80%,.14) -1.13%,rgb(240 255 244/4%) 99.99%);
     width: 1110px;
-    max-width: 1440px;
-    min-height: 68px;
+    
+    min-height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     border-radius: 24px;
     padding: 0.5em 1em;
+    align-items: flex-start;
 }
 .logo-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 4px;
     width: 100%;
 }
 .logo{
     display: flex;
+    align-self: center;
 
 
 }
@@ -62,6 +58,7 @@ margin-top: 30px;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
+    transition: font-size 0.3s linear;
 
 }
 .name .name-suffix{
@@ -73,6 +70,8 @@ margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 8px;
+    
    
     gap:clamp(1.5em,2em,2.5em);
 }
@@ -125,6 +124,7 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
 }
 .nav-humbuger-menu img{
     width: 24px;
@@ -137,6 +137,14 @@ margin-top: 30px;
 
 
 
+@media  screen and (max-width: 1200px){
+    .header-container{  
+        max-width: 80%;
+        margin: 30px auto;
+    }
+    
+   
+}
 @media  screen and (max-width: 992px){
     
    
@@ -144,6 +152,11 @@ margin-top: 30px;
 
 
 @media  screen and (max-width: 768px) {
+
+    .header-container{  
+        max-width: 80%;
+        margin: 30px auto;
+    }
 
     .nav-humbuger-menu,.nav-humbuger-menu img{
         display: block;
@@ -155,7 +168,8 @@ margin-top: 30px;
 
     .nav-bar {
         flex-direction: column;
-        height: 68px;
+        height: 60px;
+        
         transition: height 0.3s ease-in-out;
         
     }
@@ -180,6 +194,11 @@ margin-top: 30px;
 
     .menu-list {
         display: block;
+    }
+    .logo .name{
+        font-weight: 700;
+        font-size: 23px;
+    
     }
 }
 
@@ -199,7 +218,8 @@ margin-top: 30px;
 
     .nav-bar {
         flex-direction: column;
-        height: 68px;
+        height: 60px;
+        
         transition: height 0.3s ease-in-out;
         
     }
@@ -224,6 +244,11 @@ margin-top: 30px;
 
     .menu-list {
         display: block;
+    }
+    .logo .name{
+        font-weight: 600;
+        font-size: 22px;
+    
     }
 }
 
