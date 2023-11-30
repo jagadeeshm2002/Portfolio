@@ -19,6 +19,44 @@ p{
   
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:wght@400;500&display=swap');
 
+.header{
+    position: relative;
+}
+.sticky-media{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    top: -30px;
+    left: -10px;
+}
+.sticky-media .line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.sticky-media .media-icons{
+    flex-direction: column;
+    display: flex;
+}
+.media-icons a{
+    
+    width: 32px;
+    height: 32px;
+}
+.media-icons a img{
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+
 .header-container{
   
     max-width: 100%;  
@@ -58,7 +96,7 @@ p{
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    transition: font-size 0.3s linear;
+    
 
 }
 .name .name-suffix{
@@ -175,13 +213,13 @@ p{
     }
 
     .expanded{
-        height: 200px;
+        height: 160px;
     }
 
     .nav-menu {
         display: none;
         position: absolute;
-        top: -150px;
+        top: -120px;
         padding: 1em;
         width: auto;
         z-index: 1;
@@ -225,13 +263,13 @@ p{
     }
 
     .expanded{
-        height: 200px;
+        height: 160px;
     }
 
     .nav-menu {
         display: none;
         position: absolute;
-        top: -150px;
+        top: -120px;
         padding: 1em;
         width: auto;
         z-index: 1;
@@ -249,6 +287,9 @@ p{
         font-weight: 600;
         font-size: 22px;
     
+    }
+    .sticky-media{
+        display: none;
     }
 }
 
