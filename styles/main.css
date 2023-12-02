@@ -57,7 +57,7 @@
 
 }
 .hero-img {
-    background-image: url("/images/img/hero-img-1.jpg");
+    background-image: url("https://github.com/jagadeeshm2002/portfolio/blob/3f3c8946abb4503778b2277ec28aa76c85bbefbc/images/img/hero-img-1.jpg");
     width: 23rem;
     height: 23rem;
     background-size: cover;
