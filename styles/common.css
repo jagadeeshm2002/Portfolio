@@ -17,7 +17,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 , button{
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
 }
@@ -45,4 +45,22 @@ p{
 
 @media  screen and (max-width: 600px) {
    
+}
+
+
+
+/* -----------custom scrollbar------- */
+
+::-webkit-scrollbar{
+    width: 8px;
+    
+}
+::-webkit-scrollbar-track{
+    background: #1b1b1b;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(18, 255, 77),#06d888);
+    border-radius: 8px;
+    
 }
