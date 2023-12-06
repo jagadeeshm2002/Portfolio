@@ -56,18 +56,31 @@
     
 
 }
-.hero-img {
-    background-image: url("/images/img/hero-img-1.jpg");
-    width: 23rem;
-    height: 23rem;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.img-hero{
+    width: 21rem;
+    height: 21rem;
+    align-self: center;
+    justify-self: center;
     border: 3px solid rgb(209, 209, 209);
     animation: morph 8s ease-in-out infinite;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     position: relative;
     transition: all 1s ease-in-out;
+    
+}
+.hero-img {
+    /* background-image: url("/images/img/hero-img-1.jpg"); */
+    width: 21rem;
+    height: 21rem;
+    /* background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+    /* border: 3px solid rgb(209, 209, 209);
+    animation: morph 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    position: relative;
+    transition: all 1s ease-in-out; */
+    
 }
 
 @keyframes morph {
@@ -600,7 +613,7 @@ footer{
     .left-side-hero h3{
         text-align: center;
     }
-    .hero-img {
+    .hero-img,.img-hero {
         width: 21rem;
         height: 21rem;
         
@@ -637,16 +650,12 @@ footer{
 }
 
 @media  screen and (max-width: 600px) {
-    .hero-img {
-        width: 18rem;
-        height: 18rem;
-        
-    }
+    
     .left-side-hero h3{
         font-size: 38px;
     }
     
-    .hero-img {
+    .hero-img,.img-hero{
         width: 15rem;
         height: 15rem;
         
@@ -770,7 +779,7 @@ footer{
     }
     .about-text p:last-child{
         font-size: 16px;
-        text-align: justify;
+        text-align:center;
         
     
     }
@@ -787,5 +796,26 @@ footer{
     .hero-text{
         text-align: center;
         
+    }
+    
+    .slogan h5{
+        border: 1px solid gray;
+        padding: 5px 10px;
+        font-size: 10px;
+        
+    }
+    .slogan img{
+        position: absolute;
+        width: 14px;
+        background-color:  #070B0D ;
+        
+        
+    }
+    .slogan .up{
+        transform: translate(10px,-35px);
+    }
+    .slogan .down{
+        transform: translate(255px,-6px);
+
     }
 }
