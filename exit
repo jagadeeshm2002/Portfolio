@@ -1,0 +1,65 @@
+* [33mcommit 05d543373ff28b62dd84d0127a0781549e145c33[m[33m ([m[1;31morigin/main[m[33m)[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Wed Dec 6 11:05:46 2023 +0530
+[31m|[m 
+[31m|[m     Update index.html
+[31m|[m     
+[31m|[m     change hero image view
+[31m|[m 
+* [33mcommit 479078c8975b98e64c6a09343a35ae553c0e00fb[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Sat Dec 2 22:13:39 2023 +0530
+[31m|[m 
+[31m|[m     Update main.css
+[31m|[m 
+* [33mcommit 32fc4960ccb2f5fc53b905ea40a0667e2a9d06ee[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Sat Dec 2 22:01:16 2023 +0530
+[31m|[m 
+[31m|[m     Update main.css
+[31m|[m 
+* [33mcommit 3f3c8946abb4503778b2277ec28aa76c85bbefbc[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Sat Dec 2 21:55:55 2023 +0530
+[31m|[m 
+[31m|[m     Create static.yml
+[31m|[m 
+* [33mcommit 8eaaf096af10f56fd0f7f31819d07ba7cf04f3de[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Sat Dec 2 21:54:33 2023 +0530
+[31m|[m 
+[31m|[m     Delete images/img/hero-img.jpeg
+[31m|[m     
+[31m|[m     file not in use
+[31m|[m 
+* [33mcommit 580cc732ac3629591c10311f7f117a9828ee65e3[m
+[31m|[m Author: jagadeesh m <91142244+jagadeeshm2002@users.noreply.github.com>
+[31m|[m Date:   Sat Dec 2 21:54:01 2023 +0530
+[31m|[m 
+[31m|[m     Delete images/img/Untitled-1.png
+[31m|[m     
+[31m|[m     file was not in use
+[31m|[m 
+* [33mcommit 59ecd2991444d2eae18a9cfc351de62ce79fb2ae[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+[31m|[m Author: jagadeesh <jagadeeshm9876@gmail.com>
+[31m|[m Date:   Sat Dec 2 21:41:13 2023 +0530
+[31m|[m 
+[31m|[m     fully responsible portflio but add some details.
+[31m|[m 
+* [33mcommit a345b97cc0449a1afbed50f3db36cacadb74ed65[m
+[31m|[m Author: jagadeesh <jagadeeshm9876@gmail.com>
+[31m|[m Date:   Wed Nov 29 22:31:59 2023 +0530
+[31m|[m 
+[31m|[m     full responsive header section
+[31m|[m 
+* [33mcommit bca09cc3d73587f6ec81936377f5adaf26fe4807[m
+[31m|[m Author: jagadeesh <jagadeeshm9876@gmail.com>
+[31m|[m Date:   Wed Nov 29 21:26:26 2023 +0530
+[31m|[m 
+[31m|[m     menu for responsive
+[31m|[m 
+* [33mcommit 4ff0dff26551da74bcc4fa783a56ee4eef399543[m
+  Author: jagadeesh <jagadeeshm9876@gmail.com>
+  Date:   Wed Nov 29 11:47:45 2023 +0530
+  
+      header with not responsive
