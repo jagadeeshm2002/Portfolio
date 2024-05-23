@@ -37,6 +37,13 @@
     font-size: 14px;
     font-weight: 600;
     font-family: 'Mulish', sans-serif;
+    cursor: pointer;
+    
+
+}
+.left-side-hero .contact-me:hover{
+    border: 2px solid #60fd82;
+    
     
 
 }
@@ -327,15 +334,26 @@ section{
     border: 1px solid #303030;
     padding: 4px 6px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 5px rgba(4, 255, 92, 0.377);
 
 }
 .projects-links button{
     padding: 6px 10px;
     border: 2px solid #1eb63f;
+    border-radius: 10px;
     margin-left: 1rem;
     background: none;
     color: #f4f5f5;
+    cursor: pointer;
+
+
+
+    
+}
+.projects-links button:hover{
+    padding: 6px 10px;
+    border: 2px solid #2dff5b;
+    
 
 
 
@@ -780,6 +798,7 @@ footer{
     .about-text p:last-child{
         font-size: 16px;
         text-align:center;
+        word-warp:balance;
         
     
     }

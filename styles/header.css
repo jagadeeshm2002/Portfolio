@@ -223,6 +223,8 @@ p{
         padding: 1em;
         width: auto;
         z-index: 1;
+        transition: all linear;
+    
     }
 
     .expanded .nav-menu {
